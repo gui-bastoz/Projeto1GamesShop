@@ -4,30 +4,75 @@
     box-sizing: border-box;
 }
 
+header,
+section h2{
+    font-family: "Bungee", sans-serif;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
 header{
-    background-color: rgb(0, 0, 0);
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 32px;
-}
-
-header li a{
-    text-decoration: none;
+    padding: 16px 0;
+    background-color: black;
     color: #fff;
 }
 
-header li{
+header h1,
+section h2{
+    font-weight: normal;
+}
+
+header nav li{
     display: inline;
-    margin-left: 10px;
+    margin-left: 16px;
+    font-size: 24px;
 }
 
-.sobre{
+header nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
 }
 
 section .container{
-    margin: 60px 60px;
-    width: 50%;
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.store-front{
+    margin-right: 32px;
 }
